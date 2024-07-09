@@ -150,3 +150,40 @@ opacity: 0.7;
   margin: 50px 90px 50px 40px;
 }
 /* developer-section2 end */
+
+/* inspiration start */
+.inspiration{
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.inspiration h1{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 25px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin: 20px ;
+}
+.inspiration p{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin: 20px 80px 60px 80px;
+
+}
+.yourtube-emb{
+  border: 1px solid rgb(207, 205, 205);
+  padding: 20px;
+  border-radius: 6px;
+
+}
+/* inspiration end */
