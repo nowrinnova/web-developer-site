@@ -1,189 +1,283 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
   padding: 0%;
   margin: 0%;
 }
-.banner{
+.banner {
   max-width: 100%;
   height: 554px;
-  background-image: url('../assets/Hero-bg.png');
+  background-image: url("../assets/Hero-bg.png");
   margin-bottom: 40px;
 }
-.banner-content{
+.banner-content {
   max-width: 848px;
   height: 400px;
   margin: 0px auto;
   text-align: center;
 }
-.banner-content img{
+.banner-content img {
   width: 160px;
-  
 }
-.banner-content h1{
+.banner-content h1 {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 38px;
-font-weight: 800;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Azeret Mono;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
 }
-.banner-content p{
+.banner-content p {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 10px;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 0%;
-text-align: center;
-margin: 10px 40px 40px 40px;
+  font-family: Azeret Mono;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 10px 40px 40px 40px;
 }
-.banner-content button{
+.banner-content button {
   width: 240px;
-height: 45px;
+  height: 45px;
   border-radius: 8px;
-color: white;
-background: rgb(13, 19, 33);
-color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
+  color: white;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
 }
-
 
 /* web-developmemt start */
-.web-developmemt{
+.web-developmemt {
   max-width: 900px;
   height: 1150px;
   margin: 0 auto;
-  background-color:rgba(20, 29, 50, 0.02);
+  background-color: rgba(20, 29, 50, 0.02);
   padding-top: 20px;
   border-radius: 6px;
-  
 }
-.web-developmemt-container{
+.web-developmemt-container {
   margin: 10%;
   max-width: 780px;
   height: 1000px;
- 
-  
 }
 
 .web-developmemt-title {
- text-align: center;
- margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
-.web-developmemt-title h1{
+.web-developmemt-title h1 {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 37px;
-font-weight: 800;
-line-height: 37px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Azeret Mono;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
 }
-.web-developmemt-title p{
+.web-developmemt-title p {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 12px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
-margin:20px 20px 20px 20px;
-
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 20px 20px 20px 20px;
 }
-.developer-section1{
- margin: 10px 20px 10px 20px;
- display: flex;
- /* justify-content: space-between; */
- gap: 60px;
- 
+.developer-section1 {
+  margin: 10px 20px 10px 20px;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 60px;
 }
-.developer-details h2{
+.developer-details h2 {
   color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 18px;
-font-weight: 700;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-margin: 10px 20px 10px 0px;
-
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px 20px 10px 0px;
 }
-.developer-details p{
+.developer-details p {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 10px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0%;
-text-align: left;
-opacity: 0.7;
-margin: 10px 20px 30px 0px;
+  font-family: Azeret Mono;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin: 10px 20px 30px 0px;
 }
-.developer-details button{
+.developer-details button {
   width: 151px;
-height: 40px;
+  height: 40px;
   box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
 }
-.developer-img img{
+.developer-img img {
   width: 190px;
   height: 190px;
   margin-top: 30px;
 }
 /* developer-section2 start */
 
-.developer-section2{
+.developer-section2 {
   display: flex;
   margin-left: 37px;
 }
-.developer-details{
- 
+.developer-details {
   margin: 50px 90px 50px 40px;
 }
 /* developer-section2 end */
 
 /* inspiration start */
-.inspiration{
+.inspiration {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;
 }
-.inspiration h1{
+.inspiration h1 {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 25px;
-font-weight: 800;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: center;
-margin: 20px ;
+  font-family: Azeret Mono;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 20px;
 }
-.inspiration p{
+.inspiration p {
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 12px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
-margin: 20px 80px 60px 80px;
-
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 20px 80px 60px 80px;
 }
-.yourtube-emb{
+.yourtube-emb {
   border: 1px solid rgb(207, 205, 205);
   padding: 20px;
   border-radius: 6px;
-
 }
 /* inspiration end */
+/* current-target start */
+.current-target {
+  max-width: 900px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 80px;
+}
+.current-target h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.current-target p{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin: 20px 70px 30px 70px;
+
+}
+.skillset-card{
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+  text-align: left;
+}
+.skillset1{
+  background-color: rgb(252, 227, 231);
+  width: 33%;
+  height: 300px;
+  border-radius: 6px;
+}
+.skillset2{
+  background-color: rgb(199, 217, 226);
+  width: 33%;
+  height: 300px;
+  border-radius: 6px;
+}
+.skillset3{
+  background-color: rgb(252, 247, 219);
+  width: 33%;
+  height: 300px;
+  border-radius: 6px;
+}
+/* .skillset1 img{
+  text-align: start;
+}
+.skillset1 h1{
+  text-align: start;
+} */
+.skillset-container{
+ display: flex;
+ flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 20px 30px 10px 30px;
+
+}
+.skillset-container h1{
+  margin-top: 15px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.skillset-container h6{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 10px;
+font-weight: 300;
+line-height: 12px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+}
+.skillset-container a{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin-top: 20px;
+}
+
+
+/* current-target end */
