@@ -58,16 +58,17 @@ text-align: center;
 .web-developmemt{
   max-width: 900px;
   height: 1150px;
-  border: 1px solid black;
   margin: 0 auto;
-  background-color:rgba(13, 19, 33, 0.02);
+  background-color:rgba(20, 29, 50, 0.02);
+  padding-top: 20px;
+  border-radius: 6px;
   
 }
 .web-developmemt-container{
   margin: 10%;
-  max-width: 800px;
+  max-width: 780px;
   height: 1000px;
-  border: 1px solid blue;
+ 
   
 }
 
@@ -100,7 +101,7 @@ margin:20px 20px 20px 20px;
  margin: 10px 20px 10px 20px;
  display: flex;
  /* justify-content: space-between; */
- gap: 40px;
+ gap: 60px;
  
 }
 .developer-details h2{
@@ -138,3 +139,14 @@ opacity: 0.7;
   height: 190px;
   margin-top: 30px;
 }
+/* developer-section2 start */
+
+.developer-section2{
+  display: flex;
+  margin-left: 37px;
+}
+.developer-details{
+ 
+  margin: 50px 90px 50px 40px;
+}
+/* developer-section2 end */
