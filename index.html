@@ -13,7 +13,7 @@
       <img class="banner-pic" src="assets/Group.png" alt="">
       <h1>"In the near future, I hope to become a Developer."</h1>
       <p>In the near future, I hope to become a Developer, mastering various programming languages and frameworks. I aim to create innovative software solutions that can solve real-world problems and improve people's lives. By continuously learning and adapting to new technologies, I plan to contribute significantly to the tech industry and advance my career.</p>
-      <button>Contact with me</button>
+      <button onclick="scrollToFooter()">Contact with me</button>
     </div>
   </section>
   </header>
@@ -112,13 +112,19 @@
     </div>
    </section>
   </main>
-  <footer>
+  <footer id="footer">
     <div class="footer-dispriction"><h2>An Open Commitment by Nowrin Islam</h2></div>
     <div class="footer-icon">
-      <img src="assets/facebook.png" alt="facebook">
-      <img src="assets/github.png" alt="github">
-      <img src="assets/linkedin-icon 1.png" alt="">
+      <a href="https://www.facebook.com/groups/missionwebdevelopment10"  target="_blank"><img src="assets/facebook.png" alt="facebook"></a>
+      <a href="https://github.com/ProgrammingHero1"  target="_blank"><img src="assets/github.png" alt="github"></a>
+      <a href="https://www.linkedin.com/company/programminghero/"  target="_blank"><img src="assets/linkedin-icon 1.png" alt=""></a>
     </div>
   </footer>
+  <script>
+    function scrollToFooter() {
+    document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
+}
+
+  </script>
 </body>
 </html>
